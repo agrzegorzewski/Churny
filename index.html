@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churn email generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="icon" href="images/Mark_RGB_Orange.png" type="image" sizes="16x16 32x32">
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <img src="images/Stacked_RGB_White+Orange.png" alt="LiveChat" id="logo">
+    <h1>Churn email generator</h1>
+    <textarea id="input" cols="80" rows="30" placeholder="Paste columns J to O from the spreadsheet"></textarea>>
+    <br>
+    <button id="generate" onclick="generateEmail(input.value)">Generate</button>
+    <button id="copyemail" onclick="copyEmail()">Copy to clipboard</button>
+    <br>
+    <output id="output"></output>
+</body>
+</html>
